@@ -1,8 +1,9 @@
 
 package com.hao.entity;
 
+import java.io.Serializable;
 
-public class Users {
+public class Users implements Serializable{
 
 	private Long id;
 	private String name;

@@ -1,6 +1,6 @@
 ###端口号配置
 server:
-  port: 8080
+  port: 8081
 ###数据库配置  
 spring:
   datasource:
@@ -17,4 +17,4 @@ spring:
   cache:
     type: ehcache
     ehcache:
-      config: classpath:app1_ehcache.xml
+      config: classpath:app2_ehcache.xml
